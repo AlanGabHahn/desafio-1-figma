@@ -71,10 +71,47 @@ header{
     width: 100%;
 }
 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 900px;
     height: 195px;
-    margin-top: 100px;
-    background-color: salmon;
+    margin-top: 90px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+}
+.top-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 850px;
+    height: 60px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    height: 100%;
+}
+.date-box{
+    font-family: 'Lexend';
+    font-size: 16px;
+    color: #717171;
+}
+#logo-heart{
+    font-size: 18px;
+    color: #574ae8;
+}
+.title-text{
+    font-size: 26px;
+    font-family: 'Lexend';
+    color:#1a202c;
+}
+.text-box label{
+    font-family: 'Lexend';
+    font-size: 18px;
+    color: #717171;
 }
 
 
